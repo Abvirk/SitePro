@@ -25821,7 +25821,7 @@ ion-title {
   font-family: Dubai-Bold;
 }
 
-page-login #login img {
+page-login #login .image1 {
   width: 100px;
   height: 100px;
   margin-left: 35%;
@@ -25856,6 +25856,13 @@ page-login #login input::-moz-placeholder {
 
 page-login #login input:-ms-input-placeholder {
   font-family: Dubai-Light;
+}
+
+page-login #login .image2 {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 page-order-detail .estimate {
@@ -26023,7 +26030,7 @@ ion-title {
   font-family: Dubai-Bold;
 }
 
-page-signup #signup img {
+page-signup #signup .image1 {
   width: 100px;
   height: 100px;
   margin-left: 35%;
@@ -26049,4 +26056,11 @@ page-signup #signup input::-moz-placeholder {
 
 page-signup #signup input:-ms-input-placeholder {
   font-family: Dubai-Light;
+}
+
+page-signup #signup .image2 {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

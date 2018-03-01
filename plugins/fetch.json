@@ -1,0 +1,15 @@
+{
+  "cordova-plugin-ionic": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic@4.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "services_app",
+      "CHANNEL_NAME": "default",
+      "UPDATE_METHOD": "auto",
+      "MAX_STORE": "2"
+    }
+  }
+}

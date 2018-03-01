@@ -1,6 +1,6 @@
 page-login {
   #login{
-    img{
+    .image1{
       width: 100px;
       height: 100px;
       margin-left: 35%;
@@ -33,5 +33,13 @@ page-login {
     input:-ms-input-placeholder {
       font-family: Dubai-Light;
     }
+    .image2{
+      float: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   }
+
+
 }
