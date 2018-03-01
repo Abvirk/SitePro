@@ -1,0 +1,33 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Payment Method</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content  id="payment_method" padding>
+<div class="margin-top">
+  <ion-item>
+    <ion-label> <ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>
+    <ion-input type="text" placeholder="Card Holder Name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label> <ion-icon ios="ios-card" md="md-card"></ion-icon></ion-label>
+    <ion-input type="number" placeholder="Card Number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label> <ion-icon ios="ios-calendar-outline" md="md-calendar-outline "></ion-icon></ion-label>
+    <ion-input type="date" placeholder=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label> <ion-icon ios="ios-card-outline" md="md-card-outline"></ion-icon></ion-label>
+    <ion-input type="number" placeholder="CVC"></ion-input>
+  </ion-item>
+  <br><br>
+  <button ion-button block color="danger" (click)="signup()" >$65</button>
+</div>
+</ion-content>

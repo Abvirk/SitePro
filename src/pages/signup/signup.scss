@@ -1,0 +1,31 @@
+page-signup {
+  #signup{
+  img{
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+
+  }
+
+    button{
+      border-radius: 5px;
+    }
+
+    input::-webkit-input-placeholder {
+      font-family: Dubai-Light;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+      font-family: Dubai-Light;
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+      font-family: Dubai-Light;
+    }
+
+    input:-ms-input-placeholder {
+      font-family: Dubai-Light;
+    }
+
+  }
+}

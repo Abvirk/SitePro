@@ -1,0 +1,39 @@
+page-login {
+  #login{
+    img{
+      width: 100px;
+      height: 100px;
+      margin-left: 35%;
+      margin-top: 20%;
+    }
+
+    #margin-top{
+      margin-top: 25%;
+    }
+
+
+
+    .buttons{
+      padding-top: 20px;
+    }
+    button{
+      border-radius: 5px;
+    }
+
+    input::-webkit-input-placeholder {
+      font-family: Dubai-Light;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+      font-family: Dubai-Light;
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+      font-family: Dubai-Light;
+    }
+
+    input:-ms-input-placeholder {
+      font-family: Dubai-Light;
+    }
+  }
+}

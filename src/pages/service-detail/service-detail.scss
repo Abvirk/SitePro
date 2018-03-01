@@ -1,0 +1,46 @@
+page-home {
+
+  #service_detail{
+    img{
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+    }
+    .margin-left{
+      margin-left: 10px;
+    }
+    .estimate{
+      font-size: 20px;
+      color: grey;
+      font-family: Dubai-Medium;
+    }
+    .text-align{
+      text-align: right ;
+      font-size: 20px;
+      color: grey;
+      font-family: Dubai-Medium;
+    }
+
+    .font-size{
+      font-size: 16px;
+      color: grey;
+      font-family: Dubai-Regular;
+    }
+    button{
+      border-radius: 5px;
+
+    }
+    h1, h3{
+      color: grey;
+      font-family: Dubai-Bold;
+    }
+
+    ion-grid{
+      margin-left: -4%;
+    }
+  }
+
+}
+ion-title{
+  font-family: Dubai-Bold;
+}

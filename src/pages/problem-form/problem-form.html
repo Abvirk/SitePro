@@ -1,0 +1,28 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Share Your  Problem</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="problem_form">
+<br>
+  <ion-item>
+    <ion-input placeholder="Product Name" clearInput></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-textarea placeholder="Share  your  Problem"></ion-textarea>
+  </ion-item>
+
+  <img src="../assets/imgs/piping.jpg" >
+
+<br>
+  <button ion-button block color="danger"  outline ><ion-icon name="camera"></ion-icon>Take Photo</button>
+  <button ion-button block color="danger"  outline  ><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</button>
+
+  <button ion-button block color="danger"  (click)="signup()">Send</button>
+</ion-content>
