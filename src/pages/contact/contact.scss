@@ -1,23 +1,45 @@
 page-contact {
   #orders{
-  h3, h2, p{
-    color: grey;
 
-  }
   h3{
     padding-left: 5%;
     font-family: Dubai-Bold;
+    color: #f53d3d;
   }
   ion-item  h2{
   font-weight: 700;
     font-family: Dubai-Medium;
+    text-transform: uppercase;
 }
-    p{
+    .p1{
       font-family: Dubai-Regular;
+      color: grey;
+      line-height: 1.5;
+      text-align: justify;
     }
 
     button span{
       font-family: Dubai-Regular;
+    }
+    ion-icon{
+      position: relative;
+      top: 3px;
+      font-size: 18px;
+    }
+
+    .color2{
+      color: #f53d3d;
+    }
+    .color1{
+      color: black;
+    }.color3{
+      color: black;
+    }.color4{
+      color: grey;
+    }.color5{
+      color: green;
+    }.color6{
+      color: deepskyblue;
     }
 }
 }

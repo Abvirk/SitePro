@@ -25741,26 +25741,57 @@ ion-title {
   font-family: Dubai-Bold;
 }
 
-page-contact #orders h3, page-contact #orders h2, page-contact #orders p {
-  color: grey;
-}
-
 page-contact #orders h3 {
   padding-left: 5%;
   font-family: Dubai-Bold;
+  color: #f53d3d;
 }
 
 page-contact #orders ion-item h2 {
   font-weight: 700;
   font-family: Dubai-Medium;
+  text-transform: uppercase;
 }
 
-page-contact #orders p {
+page-contact #orders .p1 {
   font-family: Dubai-Regular;
+  color: grey;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 page-contact #orders button span {
   font-family: Dubai-Regular;
+}
+
+page-contact #orders ion-icon {
+  position: relative;
+  top: 3px;
+  font-size: 18px;
+}
+
+page-contact #orders .color2 {
+  color: #f53d3d;
+}
+
+page-contact #orders .color1 {
+  color: black;
+}
+
+page-contact #orders .color3 {
+  color: black;
+}
+
+page-contact #orders .color4 {
+  color: grey;
+}
+
+page-contact #orders .color5 {
+  color: green;
+}
+
+page-contact #orders .color6 {
+  color: deepskyblue;
 }
 
 ion-title {
@@ -25860,7 +25891,7 @@ page-login #login input:-ms-input-placeholder {
 
 page-login #login .image2 {
   float: right;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
 }
@@ -25937,6 +25968,11 @@ page-about .margin-left-right {
 page-about .estimate .text-align {
   color: grey;
   font-family: Dubai-Medium;
+}
+
+page-about .padding {
+  padding-right: 10px;
+  padding-left: 1px;
 }
 
 ion-title {
@@ -26026,6 +26062,11 @@ page-home #service_detail ion-grid {
   margin-left: -4%;
 }
 
+page-home #service_detail .padding {
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
 ion-title {
   font-family: Dubai-Bold;
 }
@@ -26060,7 +26101,7 @@ page-signup #signup input:-ms-input-placeholder {
 
 page-signup #signup .image2 {
   float: right;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
 }
