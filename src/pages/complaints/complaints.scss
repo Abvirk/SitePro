@@ -1,0 +1,35 @@
+page-complaints {
+
+  input::-webkit-input-placeholder {
+    font-family: Dubai-Light;
+  }
+
+  input:-moz-placeholder { /* Firefox 18- */
+    font-family: Dubai-Light;
+  }
+
+  input::-moz-placeholder {  /* Firefox 19+ */
+    font-family: Dubai-Light;
+  }
+
+  textarea:-ms-input-placeholder {
+    font-family: Dubai-Light;
+  }
+  textarea::-webkit-input-placeholder {
+    font-family: Dubai-Light;
+  }
+
+  textarea:-moz-placeholder { /* Firefox 18- */
+    font-family: Dubai-Light;
+  }
+
+  textarea::-moz-placeholder {  /* Firefox 19+ */
+    font-family: Dubai-Light;
+  }
+
+  textarea:-ms-input-placeholder {
+    font-family: Dubai-Light;
+  }
+
+
+}

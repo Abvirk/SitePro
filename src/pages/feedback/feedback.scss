@@ -1,0 +1,38 @@
+page-feedback {
+
+    #feedback{
+      .margin-top{
+        margin-top: 100px;
+      }
+      input::-webkit-input-placeholder {
+        font-family: Dubai-Light;
+      }
+
+      input:-moz-placeholder { /* Firefox 18- */
+        font-family: Dubai-Light;
+      }
+
+      input::-moz-placeholder {  /* Firefox 19+ */
+        font-family: Dubai-Light;
+      }
+
+      input:-ms-input-placeholder {
+        font-family: Dubai-Light;
+      }
+
+      ion-textarea textarea{
+        height: 100px;
+      }
+
+      ion-textarea{
+        padding-left: 15px;
+        border: 1px solid lightgray;
+      }
+
+    }
+
+  }
+  ion-title{
+    font-family: Dubai-Bold;
+  }
+

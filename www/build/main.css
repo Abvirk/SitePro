@@ -25741,6 +25741,42 @@ ion-title {
   font-family: Dubai-Bold;
 }
 
+page-complaints input::-webkit-input-placeholder {
+  font-family: Dubai-Light;
+}
+
+page-complaints input:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: Dubai-Light;
+}
+
+page-complaints input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: Dubai-Light;
+}
+
+page-complaints textarea:-ms-input-placeholder {
+  font-family: Dubai-Light;
+}
+
+page-complaints textarea::-webkit-input-placeholder {
+  font-family: Dubai-Light;
+}
+
+page-complaints textarea:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: Dubai-Light;
+}
+
+page-complaints textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: Dubai-Light;
+}
+
+page-complaints textarea:-ms-input-placeholder {
+  font-family: Dubai-Light;
+}
+
 page-contact #orders h3 {
   padding-left: 5%;
   font-family: Dubai-Bold;
@@ -25792,6 +25828,41 @@ page-contact #orders .color5 {
 
 page-contact #orders .color6 {
   color: deepskyblue;
+}
+
+ion-title {
+  font-family: Dubai-Bold;
+}
+
+page-feedback #feedback .margin-top {
+  margin-top: 100px;
+}
+
+page-feedback #feedback input::-webkit-input-placeholder {
+  font-family: Dubai-Light;
+}
+
+page-feedback #feedback input:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: Dubai-Light;
+}
+
+page-feedback #feedback input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: Dubai-Light;
+}
+
+page-feedback #feedback input:-ms-input-placeholder {
+  font-family: Dubai-Light;
+}
+
+page-feedback #feedback ion-textarea textarea {
+  height: 100px;
+}
+
+page-feedback #feedback ion-textarea {
+  padding-left: 15px;
+  border: 1px solid lightgray;
 }
 
 ion-title {
@@ -26096,6 +26167,21 @@ page-home #service_detail .padding {
 
 ion-title {
   font-family: Dubai-Bold;
+}
+
+page-settings ion-icon {
+  padding-right: 20px;
+}
+
+page-settings .settings_header {
+  background-color: #eeee;
+  font-size: 18px;
+  font-family: Dubai-Bold !important;
+}
+
+page-settings ion-item {
+  font-family: Dubai-Regular !important;
+  color: grey !important;
 }
 
 page-signup #signup .image1 {

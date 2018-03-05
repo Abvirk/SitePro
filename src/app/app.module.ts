@@ -15,6 +15,9 @@ import { Order_Detail } from '../pages/order-detail/order-detail';
 import { Rating } from '../pages/rating/rating';
 import { Service_Detail } from '../pages/service-detail/service-detail';
 import { Problem_Form } from '../pages/problem-form/problem-form';
+import { SettingsPage } from '../pages/settings/settings';
+import { FeedbackPage } from '../pages/feedback/feedback';
+import { ComplaintsPage } from '../pages/complaints/complaints';
 
 
 
@@ -45,7 +48,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     // ...............
 
     ContactPage,
+    SettingsPage,
+    FeedbackPage,
     HomePage,
+    ComplaintsPage,
     TabsPage
   ],
   imports: [
@@ -68,6 +74,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     // ...............
     AboutPage,
     ContactPage,
+    SettingsPage,
+    FeedbackPage,
+    ComplaintsPage,
     HomePage,
     TabsPage
   ],
