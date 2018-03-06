@@ -19,6 +19,7 @@ page-order-detail {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    line-height: 1.3;
     text-align: justify;
     font-size: 18px;
     color: grey;
@@ -27,6 +28,16 @@ page-order-detail {
   }
   .padding{
     padding: 5%;
+  }
+  .margin{
+    margin: 10px;
+
+  }
+
+  .background{
+    background-color: #eeee;
+    padding-top: 5px;
+    border-radius: 10px;
   }
 }
 ion-title{

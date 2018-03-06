@@ -10,6 +10,8 @@
 
 <ion-content padding id="problem_form">
 <br>
+  <div class="  background">
+    <div class="margin">
   <ion-item>
     <ion-input placeholder="Product Name" clearInput></ion-input>
   </ion-item>
@@ -21,10 +23,16 @@
   <img src="../assets/imgs/piping.jpg" >
 
 <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-50><button ion-button block color="dark"  clear ><ion-icon name="camera"></ion-icon>Take Photo</button></ion-col>
+      <ion-col width-50><button ion-button block color="dark"   clear ><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</button></ion-col>
+    </ion-row>
+  </ion-grid>
   <div padding>
-  <button ion-button block color="danger"  outline ><ion-icon name="camera"></ion-icon>Take Photo</button>
-  <button ion-button block color="danger"  outline  ><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</button>
 
   <button ion-button block color="danger"  (click)="signup()">Send</button>
+  </div>
+    </div>
   </div>
 </ion-content>

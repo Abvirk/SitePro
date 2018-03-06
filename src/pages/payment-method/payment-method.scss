@@ -2,7 +2,12 @@ page-payment-method {
 
   #payment_method{
     .margin-top{
-      margin-top: 100px;
+      padding-top: 100px;
+    }
+    h2{
+      text-align: center;
+      font-family: Dubai-Bold;
+      padding-top: 10px;
     }
 
     input::-webkit-input-placeholder {
@@ -20,6 +25,23 @@ page-payment-method {
     input:-ms-input-placeholder {
       font-family: Dubai-Light;
     }
+
+    .margin{
+      margin: 10px;
+
+    }
+
+    h1{
+      color: #f53d3d;
+      text-align: center;
+      font-size: 50px;
+    }
+
+    .background{
+      background-color: #eeee;
+      border-radius: 10px;
+    }
+
 
   }
 

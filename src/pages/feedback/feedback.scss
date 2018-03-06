@@ -2,7 +2,7 @@ page-feedback {
 
     #feedback{
       .margin-top{
-        margin-top: 100px;
+
       }
       input::-webkit-input-placeholder {
         font-family: Dubai-Light;
@@ -27,6 +27,18 @@ page-feedback {
       ion-textarea{
         padding-left: 15px;
         border: 1px solid lightgray;
+        background: white;
+      }
+      .margin{
+        margin: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .background{
+        background-color: #eeee;
+        padding-top: 5px;
+        border-radius: 10px;
       }
 
     }

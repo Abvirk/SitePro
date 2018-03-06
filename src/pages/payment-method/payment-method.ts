@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Signup } from '../signup/signup';
+import { Order_Success } from '../order-success/order-success';
 /**
  * Generated class for the PaymentMethodPage page.
  *
@@ -22,8 +22,8 @@ export class Payment_Method {
     console.log('ionViewDidLoad PaymentMethodPage');
   }
 
-signup(){
-  this.navCtrl.push(Signup);
+  order_success(){
+  this.navCtrl.push(Order_Success);
 
 }
 

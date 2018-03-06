@@ -15,22 +15,22 @@
 
 <ion-content >
   <ion-list-header class="settings_header">
-  Settings <ion-icon ios="ios-cog" md="md-cog" item-end></ion-icon>
+   <ion-icon ios="ios-cog" md="md-cog"></ion-icon> Settings
   </ion-list-header>
-  <ion-item>
+  <button ion-item>
     <ion-icon ios="ios-locate" md="md-locate"></ion-icon>Change Adress
-  </ion-item>
-  <ion-item>
+  </button>
+  <button ion-item>
     <ion-icon ios="logo-instagram" md="logo-instagram"></ion-icon>Change Logo
-  </ion-item>
-  <ion-item (click)="feedback()">
+  </button>
+  <button ion-item (click)="feedback()">
     <ion-icon ios="ios-settings" md="md-settings" ></ion-icon> Feeback
-</ion-item>
-  <ion-item (click)="complaint()">
+</button>
+  <button ion-item (click)="complaint()">
     <ion-icon ios="ios-paper-outline" md="md-paper" ></ion-icon> Register A Complaint
-</ion-item>
-  <ion-item>
+</button>
+  <button ion-item>
     <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon> Logout
-  </ion-item>
+  </button>
 
 </ion-content>

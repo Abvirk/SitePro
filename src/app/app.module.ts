@@ -18,6 +18,7 @@ import { Problem_Form } from '../pages/problem-form/problem-form';
 import { SettingsPage } from '../pages/settings/settings';
 import { FeedbackPage } from '../pages/feedback/feedback';
 import { ComplaintsPage } from '../pages/complaints/complaints';
+import { Order_Success } from '../pages/order-success/order-success';
 
 
 
@@ -44,6 +45,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Payments,
     Payment_Method,
     Forget_Password,
+    Order_Success,
     Rating,
     // ...............
 
@@ -73,6 +75,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Rating,
     // ...............
     AboutPage,
+    Order_Success,
     ContactPage,
     SettingsPage,
     FeedbackPage,
