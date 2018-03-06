@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Signup } from '../signup/signup';
+import { TabsPage } from '../tabs/tabs';
 /**
  * Generated class for the OrderDetailPage page.
  *
@@ -23,7 +23,7 @@ export class Order_Detail {
   }
 
   accept() {
-    this.navCtrl.push(Signup);
+    this.navCtrl.push(TabsPage);
   }
 
 

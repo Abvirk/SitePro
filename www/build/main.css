@@ -25708,9 +25708,19 @@ page-about .margin {
   margin: 10px;
 }
 
+page-about h1 {
+  color: red;
+  font-family: Dubai-Bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
 page-about .background {
-  background-color: #eeee;
+  background-color: #eee;
+  padding-top: 5px;
   border-radius: 10px;
+  position: relative;
+  bottom: 40px;
 }
 
 page-about .estimate {
@@ -25996,7 +26006,7 @@ page-login #login .image1 {
 }
 
 page-login #login #margin-top {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 page-login #login .buttons {
@@ -26028,7 +26038,7 @@ page-login #login input:-ms-input-placeholder {
 page-login #login .image2 {
   float: right;
   position: fixed;
-  bottom: 0;
+  bottom: -3%;
   right: 0;
   width: 130px;
 }
@@ -26068,9 +26078,18 @@ page-order-detail .margin {
 }
 
 page-order-detail .background {
-  background-color: #eeee;
+  background-color: #eee;
   padding-top: 5px;
   border-radius: 10px;
+  position: relative;
+  bottom: 40px;
+}
+
+page-order-detail h1 {
+  color: red;
+  font-family: Dubai-Bold;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 ion-title {
@@ -26089,6 +26108,10 @@ page-order-success .thanks {
   text-align: center;
   font-family: Dubai-Bold;
   font-size: 18px;
+}
+
+page-order-success h5 {
+  text-align: center;
 }
 
 page-order-success h4 {
@@ -26165,6 +26188,13 @@ page-about .estimate .text-align {
   font-family: Dubai-Medium;
 }
 
+page-about h1 {
+  color: red;
+  font-family: Dubai-Bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
 page-about .padding {
   padding-right: 10px;
   padding-left: 1px;
@@ -26175,9 +26205,11 @@ page-about .margin {
 }
 
 page-about .background {
-  background-color: #eeee;
+  background-color: #eee;
   padding-top: 5px;
   border-radius: 10px;
+  position: relative;
+  bottom: 40px;
 }
 
 ion-title {
@@ -26222,13 +26254,26 @@ page-home #problem_form input:-ms-input-placeholder {
 }
 
 page-home #problem_form .margin {
-  margin: 10px;
+  margin: 4px;
 }
 
 page-home #problem_form .background {
   background-color: #eeee;
   padding-top: 5px;
   border-radius: 10px;
+}
+
+page-home #problem_form .takephoto {
+  float: left;
+}
+
+page-home #problem_form .upload_photo {
+  float: right;
+}
+
+page-home #problem_form ion-icon {
+  position: relative;
+  top: 4px;
 }
 
 ion-title {
@@ -26276,6 +26321,7 @@ page-home #service_detail h3 {
 page-home #service_detail h1 {
   color: red;
   font-family: Dubai-Bold;
+  margin-top: 5px;
 }
 
 page-home #service_detail ion-grid {
@@ -26288,13 +26334,15 @@ page-home #service_detail .padding {
 }
 
 page-home #service_detail .margin {
-  margin: 10px;
+  margin: 5px;
 }
 
 page-home #service_detail .background {
-  background-color: #eeee;
+  background-color: #eee;
   padding-top: 5px;
   border-radius: 10px;
+  position: relative;
+  bottom: 40px;
 }
 
 ion-title {
@@ -26347,7 +26395,7 @@ page-signup #signup input:-ms-input-placeholder {
 page-signup #signup .image2 {
   float: right;
   position: fixed;
-  bottom: 0;
+  bottom: -3%;
   right: 0;
   width: 130px;
 }

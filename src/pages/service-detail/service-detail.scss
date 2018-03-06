@@ -37,6 +37,8 @@ page-home {
     h1{
       color: red;
       font-family: Dubai-Bold;
+      margin-top: 5px;
+
     }
 
     ion-grid{
@@ -47,14 +49,16 @@ page-home {
       padding-left: 1px;
     }
     .margin{
-      margin: 10px;
+      margin: 5px;
 
     }
 
     .background{
-      background-color: #eeee;
+      background-color: #eee;
       padding-top: 5px;
       border-radius: 10px;
+      position: relative;
+      bottom: 40px;
     }
   }
 

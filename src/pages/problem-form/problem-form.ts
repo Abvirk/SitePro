@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { Signup } from '../signup/signup';
+import { TabsPage } from '../tabs/tabs';
 @Component({
   selector: 'page-home',
   templateUrl: 'problem-form.html'
@@ -14,7 +14,7 @@ export class Problem_Form {
 
 
   signup(){
-    this.navCtrl.push(Signup);
+    this.navCtrl.push(TabsPage);
 
   }
 

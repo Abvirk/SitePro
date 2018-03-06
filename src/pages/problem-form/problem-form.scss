@@ -38,7 +38,7 @@ page-home {
 
 
     .margin{
-      margin: 10px;
+      margin: 4px;
 
     }
 
@@ -47,6 +47,18 @@ page-home {
       padding-top: 5px;
       border-radius: 10px;
     }
+    .takephoto{
+      float: left;
+    }
+    .upload_photo{
+      float: right;
+    }
+    ion-icon{
+      position: relative;
+      top:4px;
+    }
+
+
   }
 }
 ion-title{

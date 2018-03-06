@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {TabsPage} from "../tabs/tabs";
 
 /**
  * Generated class for the OrderSuccessPage page.
@@ -20,6 +21,10 @@ export class Order_Success {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad OrderSuccessPage');
+  }
+
+  back(){
+    this.navCtrl.push(TabsPage);
   }
 
 }
