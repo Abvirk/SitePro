@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { TabsPage } from '../tabs/tabs';
 /**
  * Generated class for the FeedbackPage page.
  *
@@ -20,6 +20,10 @@ export class FeedbackPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedbackPage');
+  }
+
+  feedback(){
+    this.navCtrl.push(TabsPage);
   }
 
 }

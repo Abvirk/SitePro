@@ -17,12 +17,14 @@
   <ion-list-header class="settings_header">
    <ion-icon ios="ios-cog" md="md-cog"></ion-icon> Settings
   </ion-list-header>
-  <button ion-item>
-    <ion-icon ios="ios-locate" md="md-locate"></ion-icon>Change Adress
-  </button>
-  <button ion-item>
-    <ion-icon ios="logo-instagram" md="logo-instagram"></ion-icon>Change Logo
-  </button>
+
+    <button ion-item (click)="update_profile()">
+      <ion-avatar item-start>
+        <img src="../assets/imgs/2434.jpg" >
+      </ion-avatar>
+      Profile
+    </button>
+
   <button ion-item (click)="feedback()">
     <ion-icon ios="ios-settings" md="md-settings" ></ion-icon> Feeback
 </button>

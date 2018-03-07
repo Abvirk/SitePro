@@ -25999,9 +25999,11 @@ ion-title {
 }
 
 page-login #login .image1 {
-  width: 100px;
-  height: 100px;
-  margin-left: 35%;
+  width: 150px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20%;
 }
 
@@ -26359,15 +26361,23 @@ page-settings .settings_header {
   font-family: Dubai-Bold !important;
 }
 
+page-settings img {
+  width: 60px;
+  border-radius: 10px;
+}
+
 page-settings ion-item {
   font-family: Dubai-Regular !important;
   color: grey !important;
 }
 
 page-signup #signup .image1 {
-  width: 100px;
-  height: 100px;
-  margin-left: 35%;
+  width: 150px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
 }
 
 page-signup #signup button {
@@ -26398,4 +26408,21 @@ page-signup #signup .image2 {
   bottom: -3%;
   right: 0;
   width: 130px;
+}
+
+page-update-profile img {
+  width: 100px !important;
+  height: 100px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+page-update-profile .buttons {
+  padding-top: 20px;
+}
+
+page-update-profile button {
+  border-radius: 5px;
 }

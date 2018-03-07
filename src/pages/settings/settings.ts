@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {FeedbackPage} from "../feedback/feedback";
 import {ComplaintsPage} from "../complaints/complaints";
+import {Update_Profile} from "../update-profile/update-profile";
 
 /**
  * Generated class for the SettingsPage page.
@@ -26,6 +27,9 @@ export class SettingsPage {
   }
   complaint(){
     this.navCtrl.push(ComplaintsPage);
+  }
+  update_profile(){
+    this.navCtrl.push(Update_Profile);
   }
 
 

@@ -17,6 +17,7 @@ import { Service_Detail } from '../pages/service-detail/service-detail';
 import { Problem_Form } from '../pages/problem-form/problem-form';
 import { SettingsPage } from '../pages/settings/settings';
 import { FeedbackPage } from '../pages/feedback/feedback';
+import { Update_Profile } from '../pages/update-profile/update-profile';
 import { ComplaintsPage } from '../pages/complaints/complaints';
 import { Order_Success } from '../pages/order-success/order-success';
 
@@ -38,7 +39,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     // ...............
     Login,
     Signup,
-
+    Update_Profile,
     Service_Detail,
     Problem_Form,
     Order_Detail,
@@ -80,6 +81,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     FeedbackPage,
     ComplaintsPage,
+    Update_Profile,
     HomePage,
     TabsPage
   ],

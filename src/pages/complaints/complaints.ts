@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { TabsPage } from '../tabs/tabs';
 /**
  * Generated class for the ComplaintsPage page.
  *
@@ -20,6 +20,9 @@ export class ComplaintsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ComplaintsPage');
+  }
+  complaints(){
+    this.navCtrl.push(TabsPage);
   }
 
 }
