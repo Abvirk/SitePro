@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {FeedbackPage} from "../feedback/feedback";
 import {ComplaintsPage} from "../complaints/complaints";
 import {Update_Profile} from "../update-profile/update-profile";
+import {Change_Password} from "../change-password/change-password";
 
 /**
  * Generated class for the SettingsPage page.
@@ -30,6 +31,9 @@ export class SettingsPage {
   }
   update_profile(){
     this.navCtrl.push(Update_Profile);
+  }
+  change_password(){
+    this.navCtrl.push(Change_Password);
   }
 
 

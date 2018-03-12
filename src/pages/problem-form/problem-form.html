@@ -20,12 +20,12 @@
     <ion-textarea placeholder="Share  your  Problem"></ion-textarea>
   </ion-item>
 
-  <img src="../assets/imgs/piping.jpg" >
+      <img src="../assets/imgs/piping.jpg" >
 
       <ion-grid>
         <ion-row>
           <ion-col col-6 class="takephoto">
-            <div><ion-icon name="camera"></ion-icon>Take Photo</div>
+            <div (click)="takephoto()"><ion-icon name="camera"></ion-icon >Take Photo</div>
           </ion-col>
           <ion-col col-6 class="upload_photo">
             <div><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</div>

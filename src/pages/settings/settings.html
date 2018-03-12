@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>settings</ion-title>
+    <ion-title>Settings</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -26,10 +26,13 @@
     </button>
 
   <button ion-item (click)="feedback()">
-    <ion-icon ios="ios-settings" md="md-settings" ></ion-icon> Feeback
+    <ion-icon ios="ios-send" md="md-send"></ion-icon>Feeback
+</button>
+  <button ion-item (click)="change_password()">
+    <ion-icon ios="ios-key" md="md-key"></ion-icon> Change Password
 </button>
   <button ion-item (click)="complaint()">
-    <ion-icon ios="ios-paper-outline" md="md-paper" ></ion-icon> Register A Complaint
+    <ion-icon ios="ios-paper" md="md-paper" ></ion-icon> Register A Complaint
 </button>
   <button ion-item>
     <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon> Logout

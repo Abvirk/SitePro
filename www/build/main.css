@@ -25760,6 +25760,20 @@ ion-title {
   font-family: Dubai-Bold;
 }
 
+page-change-password .margin {
+  margin: 4px;
+}
+
+page-change-password .background {
+  background-color: #eeee;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+page-change-password .buttons {
+  padding: 16px;
+}
+
 page-complaints input::-webkit-input-placeholder {
   font-family: Dubai-Light;
 }
@@ -26094,6 +26108,31 @@ page-order-detail h1 {
   margin-left: 20px;
 }
 
+page-order-detail #floating-panel {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+page-order-detail #map {
+  height: 100%;
+}
+
+page-order-detail .maps img {
+  width: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ion-title {
   font-family: Dubai-Bold;
 }
@@ -26410,6 +26449,10 @@ page-signup #signup .image2 {
   width: 130px;
 }
 
+page-splashscreen img {
+  width: 100%;
+}
+
 page-update-profile img {
   width: 100px !important;
   height: 100px !important;
@@ -26425,4 +26468,14 @@ page-update-profile .buttons {
 
 page-update-profile button {
   border-radius: 5px;
+}
+
+page-update-profile .margin {
+  margin: 4px;
+}
+
+page-update-profile .background {
+  background-color: #eeee;
+  padding-top: 5px;
+  border-radius: 10px;
 }
