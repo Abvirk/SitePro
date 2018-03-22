@@ -21,6 +21,8 @@ coverage/
 dist/
 node_modules/
 platforms/
+plugins/
+
 
 .DS_Store
 Thumbs.db
