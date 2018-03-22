@@ -20,7 +20,7 @@
     <ion-textarea placeholder="Share  your  Problem"></ion-textarea>
   </ion-item>
 
-  <img  [src]="photo">
+     <img  [src]="photo">
 
       <ion-grid>
         <ion-row>
@@ -28,7 +28,7 @@
             <div (click)="takephoto()"><ion-icon name="camera"></ion-icon >Take Photo</div>
           </ion-col>
           <ion-col col-6 class="upload_photo">
-            <div><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</div>
+            <div (click)="uploadphoto()"><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</div>
           </ion-col>
         </ion-row>
       </ion-grid>
