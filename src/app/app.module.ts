@@ -4,8 +4,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Camera } from '@ionic-native/camera';
 // ................
-
-
 import { Login } from '../pages/login/login';
 import { Signup } from '../pages/signup/signup';
 import { Forget_Password } from '../pages/forget-password/forget-password';

@@ -4,6 +4,51 @@ webpackJsonp([13],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Change_Password; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ChangePasswordPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Change_Password = (function () {
+    function Change_Password(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Change_Password.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Change_PasswordPage');
+    };
+    Change_Password = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-change-password',template:/*ion-inline-start:"D:\services\src\pages\change-password\change-password.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Change Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <div class="background">\n    <div class="margin">\n\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n    <ion-input type="password" placeholder="Password"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n    <ion-input type="password" placeholder="Confirm Password"></ion-input>\n  </ion-item>\n\n  <div class="buttons">\n    <button ion-button block color="danger" (click)="tabspages()">Change Password</button>\n\n  </div>\n  </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\change-password\change-password.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], Change_Password);
+    return Change_Password;
+}());
+
+//# sourceMappingURL=change-password.js.map
+
+/***/ }),
+
+/***/ 103:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComplaintsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
@@ -50,14 +95,14 @@ var ComplaintsPage = (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Payment_Method; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__order_success_order_success__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__order_success_order_success__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -100,7 +145,7 @@ var Payment_Method = (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -150,7 +195,7 @@ var Order_Success = (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -210,33 +255,32 @@ var Order_Detail = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('map'),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
     ], Order_Detail.prototype, "mapElement", void 0);
     Order_Detail = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-order-detail',template:/*ion-inline-start:"D:\services\src\pages\order-detail\order-detail.html"*/'<!--\n  Generated template for the OrderDetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Order Detail</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <img src="../assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n      <h1>PIPING</h1>\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n        Pipe Repairing\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    There is  a  problem  in  water pipe, there is  a water leakage from joint .\n  </p>\n\n    </div>\n\n    <div class="maps">\n      <img src="../assets/imgs/map.jpg" >\n    </div>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\services\src\pages\order-detail\order-detail.html"*/,
+            selector: 'page-order-detail',template:/*ion-inline-start:"D:\services\src\pages\order-detail\order-detail.html"*/'<!--\n  Generated template for the OrderDetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Order Detail</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <img src="../www/assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n      <h1>PIPING</h1>\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n        Pipe Repairing\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    There is  a  problem  in  water pipe, there is  a water leakage from joint .\n  </p>\n\n    </div>\n\n    <div class="maps">\n      <img src="../www/assets/imgs/map.jpg" >\n    </div>\n  </div>\n</ion-content>'/*ion-inline-end:"D:\services\src\pages\order-detail\order-detail.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], Order_Detail);
     return Order_Detail;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=order-detail.js.map
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__feedback_feedback__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__complaints_complaints__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__update_profile_update_profile__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__change_password_change_password__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__feedback_feedback__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__complaints_complaints__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__update_profile_update_profile__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__change_password_change_password__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -287,7 +331,7 @@ var SettingsPage = (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -314,9 +358,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var FeedbackPage = (function () {
-    function FeedbackPage(navCtrl, navParams) {
+    function FeedbackPage(navCtrl) {
         this.navCtrl = navCtrl;
-        this.navParams = navParams;
     }
     FeedbackPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad FeedbackPage');
@@ -328,7 +371,7 @@ var FeedbackPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-feedback',template:/*ion-inline-start:"D:\services\src\pages\feedback\feedback.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Feedback</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding id="feedback">\n  <div class="margin-top">\n    <div class="  background">\n      <div class="margin">\n\n      <ion-textarea type="text" placeholder="Type your  Views Here"></ion-textarea>\n\n    <br>\n    <div >\n      <button ion-button block color="danger"  (click)="feedback()">Feedback</button>\n    </div>\n  </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\feedback\feedback.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], FeedbackPage);
     return FeedbackPage;
 }());
@@ -337,7 +380,7 @@ var FeedbackPage = (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -376,7 +419,7 @@ var Update_Profile = (function () {
     };
     Update_Profile = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-update-profile',template:/*ion-inline-start:"D:\services\src\pages\update-profile\update-profile.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Update Profile</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <div class="background">\n    <div class="margin">\n  <ion-item >\n    <ion-avatar >\n      <img src="../assets/imgs/2434.jpg" >\n    </ion-avatar>\n\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>\n    <ion-input type="text" value="Shama Hyder"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-mail" md="md-mail"></ion-icon></ion-label>\n    <ion-input type="email" value="shama.hyder11@gmail.com"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-call" md="md-call"></ion-icon></ion-label>\n    <ion-input type="text" value="+92-345-806868-2"></ion-input>\n  </ion-item>\n<br>\n  <div class="buttons" padding>\n    <button ion-button block color="danger" (click)="tabspages()">Update Profile</button>\n\n  </div>\n  </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\update-profile\update-profile.html"*/,
+            selector: 'page-update-profile',template:/*ion-inline-start:"D:\services\src\pages\update-profile\update-profile.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Update Profile</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <div class="background">\n    <div class="margin">\n  <ion-item >\n    <ion-avatar >\n      <img src="../www/assets/imgs/2434.jpg" >\n    </ion-avatar>\n\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>\n    <ion-input type="text" value="Shama Hyder"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-mail" md="md-mail"></ion-icon></ion-label>\n    <ion-input type="email" value="shama.hyder11@gmail.com"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-call" md="md-call"></ion-icon></ion-label>\n    <ion-input type="text" value="+92-345-806868-2"></ion-input>\n  </ion-item>\n<br>\n  <div class="buttons" padding>\n    <button ion-button block color="danger" (click)="tabspages()">Update Profile</button>\n\n  </div>\n  </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\update-profile\update-profile.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], Update_Profile);
@@ -384,51 +427,6 @@ var Update_Profile = (function () {
 }());
 
 //# sourceMappingURL=update-profile.js.map
-
-/***/ }),
-
-/***/ 109:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Change_Password; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ChangePasswordPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Change_Password = (function () {
-    function Change_Password(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    Change_Password.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Change_PasswordPage');
-    };
-    Change_Password = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-change-password',template:/*ion-inline-start:"D:\services\src\pages\change-password\change-password.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Change Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <div class="background">\n    <div class="margin">\n\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n    <ion-input type="password" placeholder="Password"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n    <ion-input type="password" placeholder="Confirm Password"></ion-input>\n  </ion-item>\n\n  <div class="buttons">\n    <button ion-button block color="danger" (click)="tabspages()">Change Password</button>\n\n  </div>\n  </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\change-password\change-password.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], Change_Password);
-    return Change_Password;
-}());
-
-//# sourceMappingURL=change-password.js.map
 
 /***/ }),
 
@@ -486,6 +484,57 @@ var Forget_Password = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashscreenPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(112);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the SplashscreenPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SplashscreenPage = (function () {
+    function SplashscreenPage(navCtrl, navParams) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        setTimeout(function () {
+            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* Login */]);
+        }, 2500);
+    }
+    SplashscreenPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SplashscreenPage');
+    };
+    SplashscreenPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-splashscreen',template:/*ion-inline-start:"D:\services\src\pages\splashscreen\splashscreen.html"*/'<!--\n  Generated template for the SplashscreenPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n\n<ion-content padding>\n  <img src="../www/assets/imgs/splash.gif" >\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\splashscreen\splashscreen.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], SplashscreenPage);
+    return SplashscreenPage;
+}());
+
+//# sourceMappingURL=splashscreen.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Login; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
@@ -528,7 +577,7 @@ var Login = (function () {
     };
     Login = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"D:\services\src\pages\login\login.html"*/'\n<ion-content padding id="login">\n  <div class="image1">\n  <img src="../assets/imgs/icon.png" align="middle">\n  </div>\n\n  <div padding id="margin-top">\n\n        <ion-item>\n          <ion-label> <ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>\n          <ion-input type="text" placeholder="Username"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n          <ion-input type="password" placeholder="Password"></ion-input>\n        </ion-item>\n\n\n\n      <div class="buttons">\n        <button ion-button block color="danger"  (click)="signup()">Login</button>\n        <button ion-button block color="danger" outline (click)="forgetpassword()">Forget Password</button>\n        <button ion-button block color="danger"  outline (click)="signup()" >Signup</button>\n\n      </div>\n\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"D:\services\src\pages\login\login.html"*/'\n<ion-content padding id="login">\n  <div class="image1">\n  <img src="../www/assets/imgs/icon.png" align="middle">\n  </div>\n\n  <div padding id="margin-top">\n\n        <ion-item>\n          <ion-label> <ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>\n          <ion-input type="text" placeholder="Username"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label> <ion-icon ios="ios-key" md="md-key"></ion-icon></ion-label>\n          <ion-input type="password" placeholder="Password"></ion-input>\n        </ion-item>\n\n\n\n      <div class="buttons">\n        <button ion-button block color="danger"  (click)="signup()">Login</button>\n        <button ion-button block color="danger" outline (click)="forgetpassword()">Forget Password</button>\n        <button ion-button block color="danger"  outline (click)="signup()" >Signup</button>\n\n      </div>\n\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], Login);
@@ -536,57 +585,6 @@ var Login = (function () {
 }());
 
 //# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashscreenPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(111);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the SplashscreenPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SplashscreenPage = (function () {
-    function SplashscreenPage(navCtrl, navParams) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        setTimeout(function () {
-            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* Login */]);
-        }, 2500);
-    }
-    SplashscreenPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SplashscreenPage');
-    };
-    SplashscreenPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-splashscreen',template:/*ion-inline-start:"D:\services\src\pages\splashscreen\splashscreen.html"*/'<!--\n  Generated template for the SplashscreenPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n\n<ion-content padding>\n  <img src="../assets/imgs/splash.gif" >\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\splashscreen\splashscreen.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], SplashscreenPage);
-    return SplashscreenPage;
-}());
-
-//# sourceMappingURL=splashscreen.js.map
 
 /***/ }),
 
@@ -612,11 +610,11 @@ webpackEmptyAsyncContext.id = 123;
 
 var map = {
 	"../pages/change-password/change-password.module": [
-		292,
+		291,
 		12
 	],
 	"../pages/complaints/complaints.module": [
-		291,
+		292,
 		11
 	],
 	"../pages/feedback/feedback.module": [
@@ -628,19 +626,19 @@ var map = {
 		9
 	],
 	"../pages/login/login.module": [
-		296,
+		303,
 		8
 	],
 	"../pages/order-detail/order-detail.module": [
-		302,
+		295,
 		7
 	],
 	"../pages/order-success/order-success.module": [
-		295,
+		296,
 		6
 	],
 	"../pages/payment-method/payment-method.module": [
-		301,
+		298,
 		5
 	],
 	"../pages/rating/rating.module": [
@@ -648,19 +646,19 @@ var map = {
 		4
 	],
 	"../pages/settings/settings.module": [
-		300,
+		302,
 		3
 	],
 	"../pages/signup/signup.module": [
-		298,
+		299,
 		2
 	],
 	"../pages/splashscreen/splashscreen.module": [
-		299,
+		300,
 		1
 	],
 	"../pages/update-profile/update-profile.module": [
-		303,
+		301,
 		0
 	]
 };
@@ -709,7 +707,7 @@ var AboutPage = (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"D:\services\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      Proposal\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content >\n  <img src="../assets/imgs/piping.jpg" >\n<div class="margin background">\n  <div class="margin">\n    <h1>PIPING</h1>\n\n\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n       Pipe Fitting\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    Yes, we  have  checked your  product image, we  will fix your  product  in  above  mentioned  price.\n    If you  are  agree then  click on  accept button.\n  </p>\n<br>\n  <div  padding>\n  <button padding ion-button block color="danger"  (click)="accept()">Accept</button>\n  <button padding ion-button block color="danger"  outline  > Reject</button>\n  </div>\n\n  </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"D:\services\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      Proposal\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content >\n  <img src="../www/assets/imgs/piping.jpg" >\n<div class="margin background">\n  <div class="margin">\n    <h1>PIPING</h1>\n\n\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n       Pipe Fitting\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    Yes, we  have  checked your  product image, we  will fix your  product  in  above  mentioned  price.\n    If you  are  agree then  click on  accept button.\n  </p>\n<br>\n  <div  padding>\n  <button padding ion-button block color="danger"  (click)="accept()">Accept</button>\n  <button padding ion-button block color="danger"  outline  > Reject</button>\n  </div>\n\n  </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AboutPage);
@@ -727,7 +725,7 @@ var AboutPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Payments; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__payment_method_payment_method__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__payment_method_payment_method__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -749,7 +747,7 @@ var Payments = (function () {
     };
     Payments = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"D:\services\src\pages\payments\payments.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Payments</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n\n  <img src="../assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n      <h1>PIPING</h1>\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n        Pipe Fitting\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    Thanks  for  accepting our  proposal  &  our worker will  reach at your location  in  15 minutes.\n    He will  fix your  product. And  you  have  to  pay  $ 65 for job.\n  </p>\n\n  <div  padding>\n  <button ion-button padding block color="danger"  (click)="payment_method()">Payment</button>\n  </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\payments\payments.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"D:\services\src\pages\payments\payments.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Payments</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n\n  <img src="../www/assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n      <h1>PIPING</h1>\n  <ion-grid>\n    <ion-row>\n      <ion-col col-8 class="estimate">\n        Pipe Fitting\n      </ion-col>\n      <ion-col class="text-align">\n        $65/ft\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <p class="margin-left-right">\n    Thanks  for  accepting our  proposal  &  our worker will  reach at your location  in  15 minutes.\n    He will  fix your  product. And  you  have  to  pay  $ 65 for job.\n  </p>\n\n  <div  padding>\n  <button ion-button padding block color="danger"  (click)="payment_method()">Payment</button>\n  </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\payments\payments.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Payments);
@@ -767,7 +765,7 @@ var Payments = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__order_detail_order_detail__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__order_detail_order_detail__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -789,7 +787,7 @@ var ContactPage = (function () {
     };
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"D:\services\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      Orders\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content id="orders">\n  <h3> Available Orders  </h3>\n  <ion-list>\n    <ion-item (click)="orderdetail()">\n      <ion-thumbnail item-start >\n        <img src="../assets/imgs/piping.jpg" >\n      </ion-thumbnail>\n      <h2 class="color1" >Pipe Repairing </h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2  class="color1"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/wiring.jpg"/>\n      </ion-thumbnail>\n      <h2 class="color2">Wiring</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color2"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/tailor.jpg">\n      </ion-thumbnail>\n      <h2 class="color3">Tailor</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color3"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/carpenter.jpg">\n      </ion-thumbnail>\n      <h2 class="color4">Carpenter</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color4"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item> <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/piping.jpg" >\n      </ion-thumbnail>\n      <h2 class="color5">Piping</h2>\n    <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n    <h2 class="color5"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/wiring.jpg"/>\n      </ion-thumbnail>\n      <h2 class="color6">Wiring</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color6"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/tailor.jpg">\n      </ion-thumbnail>\n      <h2 class="color3">Tailor</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color3"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../assets/imgs/carpenter.jpg">\n      </ion-thumbnail>\n      <h2 class="color4">Carpenter</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color4"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\contact\contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"D:\services\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      Orders\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content id="orders">\n  <h3> Available Orders  </h3>\n  <ion-list>\n    <ion-item (click)="orderdetail()">\n      <ion-thumbnail item-start >\n        <img src="../www/assets/imgs/piping.jpg" >\n      </ion-thumbnail>\n      <h2 class="color1" >Pipe Repairing </h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2  class="color1"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/wiring.jpg"/>\n      </ion-thumbnail>\n      <h2 class="color2">Wiring</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color2"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/tailor.jpg">\n      </ion-thumbnail>\n      <h2 class="color3">Tailor</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color3"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/carpenter.jpg">\n      </ion-thumbnail>\n      <h2 class="color4">Carpenter</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color4"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item> <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/piping.jpg" >\n      </ion-thumbnail>\n      <h2 class="color5">Piping</h2>\n    <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n    <h2 class="color5"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/wiring.jpg"/>\n      </ion-thumbnail>\n      <h2 class="color6">Wiring</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color6"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/tailor.jpg">\n      </ion-thumbnail>\n      <h2 class="color3">Tailor</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color3"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../www/assets/imgs/carpenter.jpg">\n      </ion-thumbnail>\n      <h2 class="color4">Carpenter</h2>\n      <p class="p1" text-wrap>There is  a  problem  in  water pipe, there is  a water leakage from joint .</p>\n      <h2 class="color4"><ion-icon ios="ios-pricetag" md="md-pricetag"></ion-icon>  65</h2>\n\n    </ion-item>\n\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\contact\contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], ContactPage);
@@ -829,7 +827,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>Services</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n  <ion-content class="card-background-page">\n<div>\n    <ion-card (click)="servicesdetail()">\n\n      <img src="../assets/imgs/piping.jpg" >\n      <div class="card-title color1"><h1>Piping</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../assets/imgs/wiring.jpg"/>\n      <div class="card-title color3"><h1>Wiring</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../assets/imgs/tailor.jpg">\n      <div class="card-title color4"><h1>Tailor</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../assets/imgs/carpenter.jpg">\n      <div class="card-title color5"><h1>Carpenter</h1></div>\n\n    </ion-card>\n</div>\n  </ion-content>\n'/*ion-inline-end:"D:\services\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>Services</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n  <ion-content class="card-background-page">\n<div>\n    <ion-card (click)="servicesdetail()">\n\n      <img src="../www/assets/imgs/piping.jpg" >\n      <div class="card-title color1"><h1>Piping</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../www/assets/imgs/wiring.jpg"/>\n      <div class="card-title color3"><h1>Wiring</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../www/assets/imgs/tailor.jpg">\n      <div class="card-title color4"><h1>Tailor</h1></div>\n\n    </ion-card>\n\n    <ion-card>\n      <img src="../www/assets/imgs/carpenter.jpg">\n      <div class="card-title color5"><h1>Carpenter</h1></div>\n\n    </ion-card>\n</div>\n  </ion-content>\n'/*ion-inline-end:"D:\services\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -869,7 +867,7 @@ var Service_Detail = (function () {
     };
     Service_Detail = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\service-detail\service-detail.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Service Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content id="service_detail">\n  <img src="../assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n       <div class="margin-left">\n         <h1>PIPING</h1>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-8 class="estimate">\n          Estimated Price\n        </ion-col>\n        <ion-col class="text-align">\n          $65\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-7 class="estimate">\n          Estimated Time\n        </ion-col>\n        <ion-col class="text-align">\n          <ion-icon ios="ios-clock-outline" md="md-clock"></ion-icon> 1 Hour\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n\n\n      <h3 >We  can  fix </h3>\n        <p class="font-size">Wiring Pipes <br> Sentary Pipes<br>Sui Gas Pipes<br>  New Pipe Fitting\n        </p>\n\n\n  </div>\n      <div  padding>\n        <button ion-button block color="danger"  (click)="problem_forms()">Place an  Order</button>\n      </div>\n\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\service-detail\service-detail.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\service-detail\service-detail.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Service Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content id="service_detail">\n  <img src="../www/assets/imgs/piping.jpg" >\n  <div class="margin background">\n    <div class="margin">\n       <div class="margin-left">\n         <h1>PIPING</h1>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-8 class="estimate">\n          Estimated Price\n        </ion-col>\n        <ion-col class="text-align">\n          $65\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col col-7 class="estimate">\n          Estimated Time\n        </ion-col>\n        <ion-col class="text-align">\n          <ion-icon ios="ios-clock-outline" md="md-clock"></ion-icon> 1 Hour\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n\n\n      <h3 >We  can  fix </h3>\n        <p class="font-size">Wiring Pipes <br> Sentary Pipes<br>Sui Gas Pipes<br>  New Pipe Fitting\n        </p>\n\n\n  </div>\n      <div  padding>\n        <button ion-button block color="danger"  (click)="problem_forms()">Place an  Order</button>\n      </div>\n\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\service-detail\service-detail.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], Service_Detail);
@@ -908,10 +906,7 @@ var Problem_Form = (function () {
         this.camera = camera;
     }
     Problem_Form.prototype.ngOnInit = function () {
-        this.photos = [];
-    };
-    Problem_Form.prototype.signup = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */]);
+        this.photo = [];
     };
     Problem_Form.prototype.takephoto = function () {
         var _this = this;
@@ -921,18 +916,24 @@ var Problem_Form = (function () {
             encodingType: this.camera.EncodingType.JPEG,
             mediaType: this.camera.MediaType.PICTURE
         };
-        this.camera.getPicture(options).then(function (imageData) {
+        this
+            .camera
+            .getPicture(options)
+            .then(function (imageData) {
             // imageData is either a base64 encoded string or a file URI
             // If it's base64:
             _this.base64Image = 'data:image/jpeg;base64,' + imageData;
-            _this.photos.push(_this.base64Image);
+            _this.photo.push(_this.base64Image);
         }, function (err) {
             // Handle error
         });
     };
+    Problem_Form.prototype.signup = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */]);
+    };
     Problem_Form = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\problem-form\problem-form.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Share Your  Problem</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding id="problem_form">\n<br>\n  <div class="background">\n    <div class="margin">\n  <ion-item>\n    <ion-input placeholder="Product Name" clearInput></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Share  your  Problem"></ion-textarea>\n  </ion-item>\n\n      <img src="../assets/imgs/piping.jpg" >\n\n      <ion-grid>\n        <ion-row>\n          <ion-col col-6 class="takephoto">\n            <div (click)="takephoto()"><ion-icon name="camera"></ion-icon >Take Photo</div>\n          </ion-col>\n          <ion-col col-6 class="upload_photo">\n            <div><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</div>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n\n  <div padding>\n\n  <button ion-button block color="danger"  (click)="signup()">Send</button>\n  </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\problem-form\problem-form.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\services\src\pages\problem-form\problem-form.html"*/'\n<ion-header>\n\n  <ion-navbar color="danger">\n    <ion-title>Share Your  Problem</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding id="problem_form">\n<br>\n  <div class="background">\n    <div class="margin">\n  <ion-item>\n    <ion-input placeholder="Product Name" clearInput></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Share  your  Problem"></ion-textarea>\n  </ion-item>\n\n  <img  [src]="photo">\n\n      <ion-grid>\n        <ion-row>\n          <ion-col col-6 class="takephoto">\n            <div (click)="takephoto()"><ion-icon name="camera"></ion-icon >Take Photo</div>\n          </ion-col>\n          <ion-col col-6 class="upload_photo">\n            <div><ion-icon name="md-cloud-upload"></ion-icon>Upload Photo</div>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n\n  <div padding>\n\n  <button ion-button block color="danger"  (click)="signup()">Send</button>\n  </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\services\src\pages\problem-form\problem-form.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__["a" /* Camera */]])
     ], Problem_Form);
@@ -1012,22 +1013,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_forget_password_forget_password__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_payments_payments__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_splashscreen_splashscreen__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_payment_method_payment_method__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_order_detail_order_detail__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_splashscreen_splashscreen__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_payment_method_payment_method__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_order_detail_order_detail__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_rating_rating__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_service_detail_service_detail__ = __webpack_require__(169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_problem_form_problem_form__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_settings_settings__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_feedback_feedback__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_update_profile_update_profile__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_complaints_complaints__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_change_password_change_password__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_order_success_order_success__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_settings_settings__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_feedback_feedback__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_update_profile_update_profile__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_complaints_complaints__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_change_password_change_password__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_order_success_order_success__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_about_about__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_contact_contact__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_home_home__ = __webpack_require__(168);
@@ -1103,19 +1104,19 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/complaints/complaints.module#ComplaintsPageModule', name: 'ComplaintsPage', segment: 'complaints', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/change-password/change-password.module#Change_PasswordModule', name: 'Change_Password', segment: 'change-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/complaints/complaints.module#ComplaintsPageModule', name: 'ComplaintsPage', segment: 'complaints', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/feedback/feedback.module#FeedbackPageModule', name: 'FeedbackPage', segment: 'feedback', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forget-password/forget-password.module#Forget_PasswordModule', name: 'Forget_Password', segment: 'forget-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/order-detail/order-detail.module#OrderDetailPageModule', name: 'Order_Detail', segment: 'order-detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/order-success/order-success.module#Order_SuccessModule', name: 'Order_Success', segment: 'order-success', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'Login', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rating/rating.module#RatingPageModule', name: 'Rating', segment: 'rating', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/payment-method/payment-method.module#PaymentMethodPageModule', name: 'Payment_Method', segment: 'payment-method', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'Signup', segment: 'signup', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/splashscreen/splashscreen.module#SplashscreenPageModule', name: 'SplashscreenPage', segment: 'splashscreen', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/update-profile/update-profile.module#Update_ProfileModule', name: 'Update_Profile', segment: 'update-profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/payment-method/payment-method.module#PaymentMethodPageModule', name: 'Payment_Method', segment: 'payment-method', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/order-detail/order-detail.module#OrderDetailPageModule', name: 'Order_Detail', segment: 'order-detail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/update-profile/update-profile.module#Update_ProfileModule', name: 'Update_Profile', segment: 'update-profile', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'Login', segment: 'login', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -1169,7 +1170,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1212,7 +1213,7 @@ var TabsPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_splashscreen_splashscreen__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_splashscreen_splashscreen__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

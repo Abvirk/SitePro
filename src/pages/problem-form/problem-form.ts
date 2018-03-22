@@ -9,20 +9,15 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
   templateUrl: 'problem-form.html'
 })
 export class Problem_Form {
-  public photos: any;
+  public photo: any;
   public  base64Image: string;
   constructor(public navCtrl: NavController, private camera: Camera) {
 
   }
   ngOnInit(){
-    this.photos=[];
+    this.photo=[];
   }
 
-
-  signup(){
-    this.navCtrl.push(TabsPage);
-
-  }
   takephoto(){
     const options: CameraOptions = {
       quality: 50,
@@ -31,14 +26,22 @@ export class Problem_Form {
       mediaType: this.camera.MediaType.PICTURE
     }
 
-    this.camera.getPicture(options).then((imageData) => {
+    this
+        .camera
+        .getPicture(options)
+        .then((imageData) => {
       // imageData is either a base64 encoded string or a file URI
-      // If it's base64:
+       // If it's base64:
        this.base64Image = 'data:image/jpeg;base64,' + imageData;
-       this.photos.push(this.base64Image);
+       this.photo.push(this.base64Image);
     }, (err) => {
-      // Handle error
+       // Handle error
     });
+  }
+
+  signup(){
+    this.navCtrl.push(TabsPage);
+
   }
 
 }
