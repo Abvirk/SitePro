@@ -1,14 +1,15 @@
 import { Component, ViewChild , ElementRef } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform,  } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs';
-/**
- * Generated class for the OrderDetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {
+  GoogleMaps,
+  GoogleMap,
+  GoogleMapsEvent,
 
-declare var google;
+  LatLng,
+
+} from '@ionic-native/google-maps';
+
 
 @IonicPage()
 @Component({
@@ -16,42 +17,53 @@ declare var google;
   templateUrl: 'order-detail.html',
 })
 export class Order_Detail {
-  @ViewChild('map') mapElement: ElementRef;
-  map: any;
-  start = 'chicago, il';
-  end = 'chicago, il';
-  directionsService = new google.maps.DirectionsService;
-  directionsDisplay = new google.maps.DirectionsRenderer;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  @ViewChild('map')
+  private mapElement: ElementRef;
+  private map:GoogleMap;
+  private location:LatLng;
+  constructor(
+      public navCtrl: NavController,
+      public navParams: NavParams,
+      private platform: Platform,
+      private googleMaps: GoogleMaps) {
+    this.location = new LatLng(42.346903, -71.135101);
+    this.ionViewDidLoad();
   }
+
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OrderDetailPage');
-    // this.initMap();
+    this.platform.ready().then(() => {
+      let element = this.mapElement.nativeElement;
+      this.map = this.googleMaps.create('map',element);
+
+      this.map.one(GoogleMapsEvent.MAP_READY).then(() => {
+        let options = {
+          target: this.location,
+          zoom: 8
+        };
+
+        this.map.moveCamera(options);
+      });
+    });
+
   }
-  // initMap() {
-  //   this.map = new google.maps.Map(this.mapElement.nativeElement, {
-  //     zoom: 7,
-  //     center: {lat: 41.85, lng: -87.65}
-  //   });
-  //
-  //   this.directionsDisplay.setMap(this.map);
-  // }
-  //
-  // calculateAndDisplayRoute() {
-  //   this.directionsService.route({
-  //     origin: this.start,
-  //     destination: this.end,
-  //     travelMode: 'DRIVING'
-  //   }, (response, status) => {
-  //     if (status === 'OK') {
-  //       this.directionsDisplay.setDirections(response);
-  //     } else {
-  //       window.alert('Directions request failed due to ' + status);
-  //     }
-  //   });
-  // }
+  addMarker() {
+    this.map.addMarker({
+      title: 'My Marker',
+      icon: 'blue',
+      animation: 'DROP',
+      position: {
+        lat: this.location.lat,
+        lng: this.location.lng
+      }
+    })
+        .then(marker => {
+          marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
+            alert('Marker Clicked');
+          });
+        });
+  }
 
   accept() {
     this.navCtrl.push(TabsPage);

@@ -47,6 +47,8 @@ export class Problem_Form {
       mediaType: this.camera.MediaType.PICTURE
     }
 
+
+
     this
         .camera
         .getPicture(options)
@@ -59,6 +61,7 @@ export class Problem_Form {
        // Handle error
     });
   }
+
 
   signup(){
     this.navCtrl.push(TabsPage);
