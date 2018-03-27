@@ -90,7 +90,7 @@
     <plugin name="cordova-plugin-camera" spec="~2.1.1" />
     <engine name="android" spec="~6.1.2" />
     <plugin name="cordova-plugin-googlemaps" spec="~2.2.8">
-        <variable name="key" value="AIzaSyBP3h4YeudDu-uVJKgoHheWEIy5ZbwgCAU" />
-        <variable name="key" value="AIzaSyDKyiHGnFyw_Xy6JcM0FxxCdyhRRLThmC8" />
+        <variable name="key" value="" />
+        <variable name="key" value="" />
     </plugin>
 </widget>
