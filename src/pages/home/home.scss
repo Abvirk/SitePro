@@ -1,58 +1,56 @@
 page-home {
-  .card-background-page {
-
-    ion-card {
-      position: relative;
-      text-align: center;
-
+    .card-background-page {
+        ion-card {
+            position: relative;
+            text-align: center;
+        }
+        .card-title {
+            position: absolute;
+            height: 50px;
+            font-size: 2.0em;
+            bottom: 0%;
+            width: 100%;
+            font-weight: bold;
+            color: white;
+            font-family: 'Lobster', cursive;
+        }
+        .color1 {
+            background: linear-gradient(to top, black 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        .color2 {
+          background: linear-gradient(to top, rgb(88, 5, 82) 50%, rgba(255, 0, 0, 0) 100%);
+      }
+        .color3 {
+            background: linear-gradient(to top, deepskyblue 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        .color4 {
+            background: linear-gradient(to top, gray 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        .color5 {
+            background: linear-gradient(to top, rgb(58, 204, 21) 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        .color6 {
+            background: linear-gradient(to top, goldenrod 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        .color7 {
+            background: linear-gradient(to top, rgb(126, 31, 180) 50%, rgba(255, 0, 0, 0) 100%);
+        }
+        h1 {
+            position: absolute;
+            bottom: 5px;
+            color: white;
+            left: 15%;
+        }
+        .card-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 52%;
+            width: 100%;
+            color: #fff;
+        }
     }
-
-    .card-title {
-      position: absolute;
-      height:50px;
-      font-size: 2.0em;
-      bottom: 0%;
-      width: 100%;
-      font-weight: bold;
-      color: white;
-
-      font-family: 'Lobster', cursive;
-    }
-
-    .color1{
-      background: linear-gradient(to top , black 50%,rgba(255,0,0,0) 100% );
-    }.color3{
-           background: linear-gradient(to top , deepskyblue 50%,rgba(255,0,0,0) 100% );
-     }.color4{
-                 background: linear-gradient(to top , gray 50%,rgba(255,0,0,0) 100% );
-      }.color5{
-                        background: linear-gradient(to top , goldenrod 50%,rgba(255,0,0,0) 100% );
-       }
-
-
-
-
-
-    h1{
-      position: absolute;
-      bottom: 5px;
-      color: white;
-      left: 15%;
-    }
-
-
-    .card-subtitle {
-      font-size: 1.0em;
-      position: absolute;
-      top: 52%;
-      width: 100%;
-      color: #fff;
-    }
-
-
-  }
-
 }
-ion-title{
-  font-family: Dubai-Bold;
+
+ion-title {
+    font-family: Dubai-Bold;
 }

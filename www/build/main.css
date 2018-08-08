@@ -25978,6 +25978,11 @@ page-home .card-background-page .color1 {
   background: linear-gradient(to top, black 50%, rgba(255, 0, 0, 0) 100%);
 }
 
+page-home .card-background-page .color2 {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #580552), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(to top, #580552 50%, rgba(255, 0, 0, 0) 100%);
+}
+
 page-home .card-background-page .color3 {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, deepskyblue), to(rgba(255, 0, 0, 0)));
   background: linear-gradient(to top, deepskyblue 50%, rgba(255, 0, 0, 0) 100%);
@@ -25989,8 +25994,18 @@ page-home .card-background-page .color4 {
 }
 
 page-home .card-background-page .color5 {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #3acc15), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(to top, #3acc15 50%, rgba(255, 0, 0, 0) 100%);
+}
+
+page-home .card-background-page .color6 {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, goldenrod), to(rgba(255, 0, 0, 0)));
   background: linear-gradient(to top, goldenrod 50%, rgba(255, 0, 0, 0) 100%);
+}
+
+page-home .card-background-page .color7 {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #7e1fb4), to(rgba(255, 0, 0, 0)));
+  background: linear-gradient(to top, #7e1fb4 50%, rgba(255, 0, 0, 0) 100%);
 }
 
 page-home .card-background-page h1 {
