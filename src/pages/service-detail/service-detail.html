@@ -8,12 +8,12 @@
 </ion-header>
 
 
-<ion-content id="service_detail">
-  <img src="././assets/imgs/piping.jpg" >
+<ion-content id="service_detail" *ngIf="service">
+  <img src="././assets/imgs/{{ service.Image }}" >
   <div class="margin background">
     <div class="margin">
        <div class="margin-left">
-         <h1>PIPING</h1>
+         <h1>{{service.ServiceName}}</h1>
 
     <ion-grid>
       <ion-row>
@@ -21,7 +21,7 @@
           Estimated Price
         </ion-col>
         <ion-col class="text-align">
-          $65
+          ${{service.Price}}
         </ion-col>
       </ion-row>
       <ion-row>
@@ -29,14 +29,14 @@
           Estimated Time
         </ion-col>
         <ion-col class="text-align">
-          <ion-icon ios="ios-clock-outline" md="md-clock"></ion-icon> 1 Hour
+          <ion-icon ios="ios-clock-outline" md="md-clock"></ion-icon>{{service.Time}}
         </ion-col>
       </ion-row>
     </ion-grid>
 
 
       <h3 >We  can  fix </h3>
-        <p class="font-size">Wiring Pipes <br> Sentary Pipes<br>Sui Gas Pipes<br>  New Pipe Fitting
+        <p class="font-size">{{service.Description}}
         </p>
 
 

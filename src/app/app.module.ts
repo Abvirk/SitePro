@@ -1,10 +1,14 @@
-import { NgModule, ErrorHandler, Component  } from '@angular/core';
+import { ServiceListService } from './../dataservices/service-list.service';
+import { FIREBASE_CONFIG } from './firebase.credentials';
+import { NgModule, ErrorHandler  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Camera } from '@ionic-native/camera';
 import { GoogleMaps } from '@ionic-native/google-maps';
 import { AgmCoreModule } from '@agm/core';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 
 // ................
@@ -72,6 +76,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     BrowserModule,
+    AngularFireModule.initializeApp(FIREBASE_CONFIG),
+    AngularFireDatabaseModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyC3PyCuZuPZCmuU7Wkh1h1w4LBSo6Md3t8'})
 
@@ -108,6 +114,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Camera,
     GoogleMaps,
     AgmCoreModule,
+    ServiceListService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 
