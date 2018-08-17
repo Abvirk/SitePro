@@ -14,14 +14,14 @@ export class ServiceListService {
 
 
     addService(service: Service) {
-       // return this.serviceListRef.push(service);
+       return this.serviceListRef.push(service);
     }
 
     updateNote(service: Service) {
-       // return this.serviceListRef.update(service.Value1, service);
+     // return this.serviceListRef.update(service.Values, service);
     }
 
     removeNote(service: Service) {
-       // return this.serviceListRef.remove(service.Value1);
+       //return this.serviceListRef.remove(service.Value1);
     }
 }

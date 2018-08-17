@@ -1,16 +1,12 @@
+import { Login } from './../login/login';
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
-import {FeedbackPage} from "../feedback/feedback";
-import {ComplaintsPage} from "../complaints/complaints";
-import {Update_Profile} from "../update-profile/update-profile";
-import {Change_Password} from "../change-password/change-password";
+import { FeedbackPage } from "../feedback/feedback";
+import { ComplaintsPage } from "../complaints/complaints";
+import { Update_Profile } from "../update-profile/update-profile";
+import { Change_Password } from "../change-password/change-password";
+//import { FirebaseAuth } from 'angularfire2/auth';
 
-/**
- * Generated class for the SettingsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -23,17 +19,21 @@ export class SettingsPage {
 
   }
 
-  feedback(){
+  feedback() {
     this.navCtrl.push(FeedbackPage);
   }
-  complaint(){
+  complaint() {
     this.navCtrl.push(ComplaintsPage);
   }
-  update_profile(){
+  update_profile() {
     this.navCtrl.push(Update_Profile);
   }
-  change_password(){
+  change_password() {
     this.navCtrl.push(Change_Password);
+  }
+
+  Logout() {
+   
   }
 
 

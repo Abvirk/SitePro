@@ -1,12 +1,8 @@
+import { Login } from './../login/login';
+import { AngularFireAuth } from 'angularfire2/auth';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { Signup } from '../signup/signup';
-/**
- * Generated class for the ForgetPasswordPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -14,16 +10,32 @@ import { Signup } from '../signup/signup';
   templateUrl: 'forget-password.html',
 })
 export class Forget_Password {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  email: string;
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+    private afAuth: AngularFireAuth, private toast: ToastController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ForgetPasswordPage');
   }
 
-  signup(){
-    this.navCtrl.push(Signup);
+  ResetPassword() {
+    this.afAuth.auth.sendPasswordResetEmail(this.email)
+      .then(res => {
+        let toast = this.toast.create({
+          message: 'Password reset link is sent to you email.',
+          duration: 3000
+        });
+        toast.present();
+        this.navCtrl.push(Login);
+      }, err => {
+        let toast = this.toast.create({
+          message: err.message,
+          duration: 3000
+        });
+        toast.present();
+      });
+
   }
 
 
