@@ -1,3 +1,4 @@
+import { UserService } from './../dataservices/user.service';
 import { ServiceListService } from './../dataservices/service-list.service';
 import { FIREBASE_CONFIG } from './firebase.credentials';
 import { NgModule, ErrorHandler  } from '@angular/core';
@@ -9,7 +10,7 @@ import { GoogleMaps } from '@ionic-native/google-maps';
 import { AgmCoreModule } from '@agm/core';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 // ................
 import { Login } from '../pages/login/login';
@@ -78,6 +79,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BrowserModule,
     AngularFireModule.initializeApp(FIREBASE_CONFIG),
     AngularFireDatabaseModule,
+    AngularFireAuthModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyC3PyCuZuPZCmuU7Wkh1h1w4LBSo6Md3t8'})
 
@@ -115,6 +117,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GoogleMaps,
     AgmCoreModule,
     ServiceListService,
+    UserService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 
